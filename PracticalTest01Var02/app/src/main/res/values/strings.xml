@@ -8,5 +8,10 @@
     <string name="hint">Write a number</string>
     <string name="result">Result</string>
 
-    <string name="SecondActivity">Navigate to second activity</string>
+    <string name="SecondActivity">Navigate to secondary activity</string>
+
+    <string name="title_activity_practical_test01_var02_secondary">Secondary activity</string>
+
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
 </resources>
