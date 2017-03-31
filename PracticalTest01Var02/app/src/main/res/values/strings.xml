@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PracticalTest01Var02</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+
+    <string name="hint">Write a number</string>
+    <string name="result">Result</string>
+
+    <string name="SecondActivity">Navigate to second activity</string>
+</resources>

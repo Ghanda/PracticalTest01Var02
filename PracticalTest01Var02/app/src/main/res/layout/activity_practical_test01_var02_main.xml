@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="practicaltest01var02.eim.systems.cs.pub.ro.practicaltest01var02.PracticalTest01MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+    android:layout_height="487dp"
+    tools:context="ro.pub.cs.systems.eim.practicaltest01.PracticalTest01MainActivity" >
+
+        <EditText
+            android:id="@+id/top_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint"
+            android:inputType="number"
+            android:saveEnabled="false" />
+
+        <Button
+            android:id="@+id/left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/secondary_activity_button"
+            android:layout_below="@id/top_edit_text"
+            android:gravity="center"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/secondary_activity_button"
+            android:layout_below="@id/top_edit_text"
+            android:gravity="center"
+            android:text="@string/minus" />
+
+        <EditText
+            android:id="@+id/bottom_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10" android:hint="@string/hint"
+            android:layout_below="@id/left_button"
+            android:saveEnabled="false" />
+
+        <TextView
+            android:id="@+id/text_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bottom_edit_text"
+            android:text="@string/result"
+            android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/secondary_activity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SecondActivity"
+            android:layout_below="@id/text_result"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
